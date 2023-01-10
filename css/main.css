@@ -1,0 +1,41 @@
+:root {
+    --color-gray: #95A1BB;
+    --color-black: #363940;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url(../fonts/Rubik-Medium.ttf) format(truetype);
+    src: url(../fonts/Rubik-Regular.ttf) format(truetype);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+h1 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-size: 36px;
+    line-height: 43px;
+    color: var(--color-black);
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 12px;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 50px auto;
+    padding: 50px auto;
+}
